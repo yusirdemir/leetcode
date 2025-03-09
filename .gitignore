@@ -1,0 +1,7 @@
+# Ruby
+*.gem
+*.rbc
+/.config
+.rubocop.yml
+.solargraph.yml
+.tool-versions
