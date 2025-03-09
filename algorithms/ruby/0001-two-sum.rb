@@ -39,8 +39,8 @@ end
 # **************** #
 
 require "test/unit"
-class Test_two_sum < Test::Unit::TestCase
-def test_
+class TestTwoSum < Test::Unit::TestCase
+def test_two_sum
     assert_equal [0, 1].sort, two_sum([2, 7, 11, 15], 9).sort
     assert_equal [1, 2].sort, two_sum([3, 2, 4], 6).sort
     assert_equal [0, 1].sort, two_sum([3, 3], 6).sort

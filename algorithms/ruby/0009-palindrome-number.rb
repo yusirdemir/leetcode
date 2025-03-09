@@ -39,8 +39,8 @@ end
 # **************** #
 
 require "test/unit"
-class Test_palindrome_number < Test::Unit::TestCase
-def test_
+class TestPalindromeNumber < Test::Unit::TestCase
+def test_palindrome_number
     # Example 1: x = 121, Output: true
     assert_equal true, is_palindrome(121)
     
@@ -50,7 +50,7 @@ def test_
     # Example 3: x = 10, Output: false
     assert_equal false, is_palindrome(10)
     
-    # Ek test durumları
+    # Additional test cases
     assert_equal true, is_palindrome(1221)
     assert_equal true, is_palindrome(12321)
     assert_equal false, is_palindrome(12345)
